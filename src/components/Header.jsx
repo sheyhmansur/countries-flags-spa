@@ -61,5 +61,3 @@ export const Header = () => {
     </HeaderEl>
   );
 };
-
-export default Header;
