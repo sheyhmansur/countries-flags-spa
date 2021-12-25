@@ -8,10 +8,7 @@ const Wrapper = styled.main`
     padding: 4rem 0;
   }
 `;
-//children - это то, что вы включаете между открывающим и закрывающими тегами при вызове компонента
 export const Main = ({ children }) => {
-  console.log(children);
-
   return (
     <Wrapper>
       <Container>{children}</Container>
