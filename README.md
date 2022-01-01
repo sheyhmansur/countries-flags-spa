@@ -12,5 +12,5 @@
 - Styled-components
 - Axios
 
-[<h3> DEMO </h3>](https://sneakers-store-eta.vercel.app/)
+[<h3> DEMO </h3>](https://countries-flags-phi.vercel.app/)
 
