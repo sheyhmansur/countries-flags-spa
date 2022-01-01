@@ -1,4 +1,4 @@
-# Проект Countries-flags на React
+# SPA-проект "Флаги стран" на React 
 
 ## Основной функционал приложения: 
 - Получение данных по REST API с сайта - https://restcountries.com/v2/ 
