@@ -4,6 +4,7 @@ import { useHistory, useParams } from "react-router-dom";
 import { IoArrowBack } from "react-icons/io5";
 import { searchByCountry } from "../config";
 import { Button } from "../components/Button";
+import { Info } from "../components/Info";
 
 export const Details = ({ match }) => {
   const { name } = useParams();
@@ -21,7 +22,7 @@ export const Details = ({ match }) => {
       <Button onClick={goBack}>
         <IoArrowBack /> Back
       </Button>
-      Details {name}
+      {country && <Info push={push} {...country} />}
     </div>
   );
 };
