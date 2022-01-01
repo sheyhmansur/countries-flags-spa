@@ -1,1 +1,1 @@
-# В разработке 
+# Проект Countries-flags на React
