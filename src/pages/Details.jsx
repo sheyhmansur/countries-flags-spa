@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import { IoArrowBack } from "react-icons/io5";
 import { searchByCountry } from "../config";
+import { Button } from "../components/Button";
 
 export const Details = ({ match }) => {
   const { name } = useParams();
@@ -17,9 +18,9 @@ export const Details = ({ match }) => {
 
   return (
     <div>
-      <button onClick={goBack}>
-        <IoArrowBack /> Назад
-      </button>
+      <Button onClick={goBack}>
+        <IoArrowBack /> Back
+      </Button>
       Details {name}
     </div>
   );
